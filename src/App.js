@@ -7,13 +7,7 @@ import UserDetails from "./components/UserDetails";
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Routes>
-          <Route path="/register" element={<Register />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/userdetails" element={<UserDetails />} />
-        </Routes>
-      </Router>
+      My application
     </div>
   );
 }
